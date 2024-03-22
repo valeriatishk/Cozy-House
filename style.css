@@ -1,0 +1,492 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sec1__height {
+  height: 908px;
+  position: relative;
+}
+
+.sec1 {
+  background-image: url(./images/start-screen-gradient-background.png);
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.header__logo h1 {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #f1cdb3;
+}
+
+.header__logo p {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-family: Arial;
+  font-weight: 400;
+}
+
+.header__links a {
+  color: #cdcdcd;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+.header__links {
+  display: flex;
+  gap: 35px;
+}
+
+.burger-menu {
+  width: 50px;
+  cursor: pointer;
+  opacity: 0.7;
+  display: none;
+}
+
+.sec1__parent {
+  display: flex;
+  align-items: center;
+  margin-top: 55px;
+}
+
+.sec1__text {
+  max-width: 460px;
+}
+
+.sec1__text h1 {
+  font-size: 44px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 310px;
+  line-height: 130%;
+  font-weight: 400;
+}
+
+.sec1__text p {
+  color: #cdcdcd;
+  font-size: 15px;
+  line-height: 160%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 42px 0;
+}
+
+button {
+  padding: 15px 45px;
+  border: none;
+  border-radius: 100px;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #f1cdb3;
+  cursor: pointer;
+}
+
+.sec1__puppy img {
+  width: 100%;
+}
+
+.sec2__parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 40px 100px 40px;
+}
+
+.sec2__text {
+  max-width: 430px;
+}
+
+.sec2__text h3 {
+  font-size: 35px;
+  color: #545454;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 370px;
+  line-height: 130%;
+  font-weight: 400;
+}
+
+.sec2__text p {
+  color: #4c4c4c;
+  font-size: 15px;
+  line-height: 160%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.sec3 {
+  background-color: #f6f6f6;
+  padding: 80px 0;
+}
+
+.sec3__parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec3__cards {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.sec3__card {
+  background-color: #fafafa;
+  border-radius: 9px;
+}
+
+.sec3__card p {
+  color: #545454;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+.sec3__card button {
+  background-color: transparent;
+  border: 2px solid #f1cdb3;
+  margin-bottom: 30px;
+}
+
+.sec3__parent h1 {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 130%;
+  color: #545454;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sec3__parent > button:hover {
+  box-shadow: none;
+}
+
+.sec3__parent > button {
+  box-shadow: 0 10px 10px gray;
+}
+
+.sec4 {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+.sec4__parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec4__parent h3 {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 130%;
+  color: #545454;
+  text-align: center;
+  max-width: 308px;
+}
+
+.sec4__icon h4 {
+  color: #545454;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.sec4__icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  text-align: center;
+  max-width: 100%;
+  justify-content: space-around;
+}
+
+.sec4__icon {
+  width: 200px;
+  margin-top: 60px;
+}
+
+.sec5 {
+  background-color: #f6f6f6;
+}
+
+.sec5__parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 0 100px 0;
+}
+
+.sec5__parent h3 {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 130%;
+  color: #545454;
+}
+
+.sec5__parent h5 {
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 110%;
+  color: #545454;
+  margin-bottom: 20px;
+  max-width: 307px;
+}
+
+.sec5__number {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #f1cdb3;
+  width: 349px;
+  border-radius: 9px;
+}
+
+.sec5__number h4 {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 115%;
+  color: #545454;
+}
+
+.sec5__text p {
+  max-width: 380px;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 18px;
+  color: #b2b2b2;
+  font-style: italic;
+}
+
+.sec6 {
+  background-image: url(./images/footer-gradient-background.png);
+  background-size: cover;
+  padding: 40px 40px 0 40px;
+}
+
+.sec6__parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec6__column {
+  margin-top: 16px;
+  margin-bottom: 60px;
+  max-width: 278px;
+}
+
+.sec6__column h1 {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 130%;
+  color: #ffffff;
+  letter-spacing: 6%;
+}
+
+.sec6__group {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 43px;
+}
+
+.sec6__group img {
+  margin-right: 20px;
+}
+
+.sec6__column p {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  line-height: 115%;
+  color: #f1cdb3;
+}
+
+.sec6__image {
+  display: flex;
+  align-items: end;
+}
+
+.hamburger,
+.close {
+  border: none;
+  cursor: pointer;
+  /* position absolute position the icons relative to the body because they have no position relative parents*/
+
+  width: 36px;
+  height: 36px;
+  display: none;
+}
+
+.close {
+  background: black;
+}
+
+.hamburger img,
+.close img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  position: absolute;
+  /* a higher z-index put navbar above hamburger */
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  /* basic menu styling*/
+  list-style: none;
+  background: black;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /* animate slide up/down */
+  transform: translateY(-100%);
+  transition: transform 0.2s ease;
+}
+
+/* :target is called when its anchor id #navbar is called by clicking on the hamburger which has href="#navbar" */
+
+.navbar:target {
+  /* show navbar */
+  transform: translateY(0);
+}
+
+li a {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  /* remove default underline and add our own with padding and border bottom */
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5rem;
+}
+
+li a:hover,
+li a:focus {
+  /* show border bottom */
+  border-bottom: 1px solid white;
+}
+
+@media all and (max-width: 1000px) {
+  .sec3__cards > img {
+    display: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  /* > - обращаемся к дочерним элементам */
+  /* gap - расстояние между дочерним и родителем */
+
+  .sec6__parent {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .sec2__parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .sec2__text {
+    margin-top: 50px;
+  }
+
+  .sec1__parent {
+    flex-direction: column;
+  }
+
+  .sec1__height {
+    height: auto;
+    text-align: center;
+  }
+
+  .sec1__text,
+  .sec2__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+
+  .sec1__puppy {
+    width: 85%;
+  }
+
+  .sec5__parent {
+    flex-direction: column-reverse;
+  }
+
+  .sec5__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .sec2__image img {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .header__links {
+    display: none;
+  }
+
+  .burger-menu {
+    display: inline-block;
+  }
+
+  .hamburger,
+  .close {
+    display: flex;
+  }
+}
